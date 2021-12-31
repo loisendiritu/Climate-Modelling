@@ -9,7 +9,7 @@ albedo = 0.3 		# solar constant
 epsilon = 1 		# emissivity
 sigma = 5.67E-8 	# W/m2 K4
 
-#Initialize time, heat content, and heat in & out
+# Initialize time, heat content, and heat in & out
 heatcapacity = waterdepth * 4.2E6 #J/K m2
 timeyears = [0]
 TK = [0]
