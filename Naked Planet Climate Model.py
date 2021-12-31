@@ -1,13 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-timestep = 100 #years
-waterdepth = 4000 #meters
-L = 1350 #watts/m2
-albedo = 0.3
-epsilon = 1
-sigma = 5.67E-8
- 
+# Define Constants
+timestep = 100 		# years
+waterdepth = 4000 	# meters
+L = 1350 		# Watts/m2
+albedo = 0.3 		# solar constant
+epsilon = 1 		# emissivity
+sigma = 5.67E-8 	# W/m2 K4
+
+#Initialize time, heat content, and heat in & out
 heatcapacity = waterdepth * 4.2E6 #J/K m2
 timeyears = [0]
 TK = [0]
