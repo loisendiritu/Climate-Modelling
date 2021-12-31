@@ -6,12 +6,12 @@ LRange = [1150, 1350]
 albedoRange = [0.15, 0.65]
 L, albedo, nIters = LRange[1], albedoRange[0], 100
 
-#Predefined variables obtained from Part I & Spreadsheet Linear Eqn
+#Predefined variables obtained from Part I & Spreadsheet Linear Equation
 albedoM = -0.01
 albedoB = 2.8
 sigma = 5.67E-8
 
-#IInitializing x & y lists for graph plotting
+#IInitialize x & y lists for graph plotting
 x, y = [], []
 
 while L > LRange[0]-1:
