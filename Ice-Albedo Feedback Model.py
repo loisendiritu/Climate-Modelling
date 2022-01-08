@@ -11,7 +11,7 @@ albedoM = -0.01
 albedoB = 2.8
 sigma = 5.67E-8
 
-# IInitialize x & y lists for graph plotting
+# Initialize x & y lists for graph plotting
 x, y = [], []
 
 while L > LRange[0]-1:
