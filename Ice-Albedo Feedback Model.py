@@ -21,7 +21,7 @@ while L > LRange[0]-1:
         T = pow(T, 0.25)
         albedo = T * albedoM + albedoB
 
-        # Limits albdeo to the specified range of 0.15 - 0.65
+        # Limits albedo to the specified range of 0.15 - 0.65
         albedo = min(albedo, albedoRange[1])
         albedo = max(albedo, albedoRange[0])
 
