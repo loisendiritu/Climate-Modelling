@@ -6,7 +6,7 @@ The goal of this project is to numerically simulate how the planetary temperatur
 
 The “heat capacity” (units of Joules / m2 K) of the planet is set by a layer of water which absorbs heat and changes its temperature.  If the layer is very thick, it takes a lot more heat (Joules) to change the temperature.
 
-The heat content is related to the temperature by the heat capacity. The numerical method is to take time steps, extrapolating the heat content from one step to the next using the incoming and outgoing heat fluxes.
+The heat content is related to the temperature by the heat capacity. The numerical method in this project is to take time steps, extrapolating the heat content from one step to the next using the incoming and outgoing heat fluxes.
 
 # Iterative Runaway Ice-Albedo Feedback Model
 Albedo refers to the fraction of light that gets reflected back into space. The higher the albedo of the planet, the colder the planet. Ice-albedo feedback is a positive feedback in the climate system.
