@@ -14,7 +14,7 @@ Albedo refers to the fraction of light that gets reflected back into space. The 
 Define and initialize variables for the number of iterations, and for epsilon and sigma. Also set up variables for the range of L values over which you are going to do the calculation. Each pass over the range in L values requires two nested loops, the outer one over values of L, and the inner one for the iterations.
 
 # Ice Sheet Flow Model
-Ice flows very slowly due to its high viscosity. The force driving the flow is the differences in pressure in the interior of the ice, which arise from differences in the elevation of the ice surface.  If you make a pile of ice, it will flow outward and flatten itself out.
+Ice itself flows very slowly due to its high viscosity. The force driving the flow is the differences in pressure in the interior of the ice, which arise from differences in the elevation of the ice surface.  If you make a pile of ice, it will flow outward and flatten itself out.
 
 The model is formulated in one dimension, on a horizontal grid.  Start with 10 grid cells.  Let them span a horizontal distance of 1000 km, or 10^6 meters.  Each grid cell will have an elevation of ice.  Flow between adjacent cells depends on the difference between their elevations.  Snow falls equally on all grid cells. Assume that the ice sheet is confined to a landmass like Greenland or Antarctica, so that the thickness of the ice at the boundaries has to be zero.  Ice flows into the ocean and disappears, both in reality and in this model.
 
