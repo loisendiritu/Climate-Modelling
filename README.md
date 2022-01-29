@@ -4,7 +4,7 @@ The temperature of the planet is determined by balancing energy fluxes in and ou
 
 The goal of this project is to numerically simulate how the planetary temperature of a naked planet would change through time as it approaches equilibrium i.e. the state at which it stops changing. The planet starts with some initial temperature. "Naked" in this case means that we are not accounting for the atmospheric layers that cause the greenhouse effect.
 
-The “heat capacity” (units of Joules / m2 K) of the planet is set by a layer of water which absorbs heat and changes its temperature.  If the layer is very thick, it takes a lot more heat (Joules) to change the temperature.
+The “heat capacity (units of Joules / m2 K) of the planet is set by a layer of water which absorbs heat and changes its temperature.  If the layer is very thick, it takes a lot more heat (Joules) to change the temperature.
 
 The heat content is related to the temperature by the heat capacity. The numerical method in this project is to take time steps, extrapolating the heat content from one step to the next using the incoming and outgoing heat fluxes.
 
