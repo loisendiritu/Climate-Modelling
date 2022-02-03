@@ -31,7 +31,7 @@ while L > LRange[0]-1:
     y.append(np.nan)
     L -= 10
 
-# Generate a plot temperatures plotted as a function of iteration number
+# Generate a plot temperature plotted as a function of iteration number
 plt.xlabel("Iteration Number")
 plt.ylabel("Temperature")
 plt.title("Snowball")
