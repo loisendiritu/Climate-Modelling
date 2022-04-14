@@ -1,4 +1,4 @@
-# The Naked Planet Climate Model
+# The Time-Stepping Naked Planet Climate Model
 The naked planet climate model is an energy balance model. Energy from the sun comes in at a particular rate, and energy flows out at a rate which is dependent on the temperature of the planet.
 The temperature of the planet is determined by balancing energy fluxes in and out of the planet.  Incoming solar heat is determined by L * (1-albedo) / 4, and outgoing infrared is calculated as epsilon * sigma * T^4.
 
